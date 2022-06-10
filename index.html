@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PiKaChu</title>
+    <link type="text/css" rel="stylesheet" href="Styles/GameStyles.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+</head>
+
+<a href="https://www.facebook.com/profile.php?id=100082063023921">FaceBook</a>
+
+<body>
+    <h1 class="game-title">PiKaChu</h1>
+    <div class="overlay-text visible">
+        Click to Start
+    </div>
+    
+    <div id="gameOverText" class="overlay-text">
+        GAME OVER!
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div id="winText" class="overlay-text">
+        YOU WIN!
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+
+    <div id="gameMainBlock" class="game-container">
+        <div id="gameInfoBlock" class="game-info-block">
+            <div class="game-info">
+                 <span id="Timer"></span>                  
+            </div>
+            <div class="game-info">
+                 <span id="Flips"></span>
+            </div>
+        </div>
+     
+
+    </div>
+    <audio controls autoplay loop >
+        <source src="./music/NhacGamePokemon.mp3">
+    </audio>
+    
+    <script type="text/javascript" src="Scripts/Controllers.js"></script>
+    <script type="text/javascript" src="Scripts/FlipFlop.js"></script>
+</body>
+
+
+</html>
